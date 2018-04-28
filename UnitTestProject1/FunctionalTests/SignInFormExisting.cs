@@ -13,7 +13,8 @@ namespace FunctionalTests.FunctionalTests
         public void SignUpFormAndAutoFill()
         {
             //Driver.Navigate().GoToUrl("https://carp-517.www.sit.williamhill.com.au/");
-            Driver.Navigate().GoToUrl("https://master.www.sit.williamhill.com.au/");
+            //Driver.Navigate().GoToUrl("https://master.www.sit.williamhill.com.au/");
+            Driver.Navigate().GoToUrl("https://williamhill.uat.williamhill.com.au/");
             
             Assert.AreEqual("Sports Betting Online & Horse Racing in Australia - William Hill", Driver.Title);
             Driver.FindElement(By.XPath("//*[contains(text(),'Sign up')]"), 5).Click();
@@ -24,8 +25,8 @@ namespace FunctionalTests.FunctionalTests
             Driver.FindElement(By.Id("password")).SendKeys("test12345");
             Driver.FindElement(By.Id("firstName")).SendKeys("ETest-Functional-firstId");
             Driver.FindElement(By.Id("lastName")).SendKeys("ETest-Functional-lastId");
-            Driver.FindElement(By.Id("dateOfBirth")).SendKeys("01011991");
-            Driver.FindElement(By.Id("mobile")).SendKeys("0421111222");
+            Driver.FindElement(By.Name("dateOfBirth"), 2).SendKeys("01011991");
+            Driver.FindElement(By.Name("mobile"), 2).SendKeys("0421111222");
             Driver.FindElement(By.Id("fullAddress")).SendKeys("3 NEW ST, CAVES BEACH NSW 2281");
 
             //Console.WriteLine($"SingleBet PromoId: {Promotion.Id}");

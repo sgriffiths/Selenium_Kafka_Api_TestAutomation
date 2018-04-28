@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web_Kafka_API_Automation", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmokeTests", "UnitTestProject1\SmokeTests.csproj", "{5103B586-B03D-4545-B325-63DA908C4C07}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateEC2InstanceAws", "CreateEC2InstanceAws\CreateEC2InstanceAws.csproj", "{B240F2F8-6B29-42F6-B88E-D24C9156C7ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWebApp", "MyWebApp\MyWebApp.csproj", "{C1810499-48A9-4728-88B6-E9F236C72941}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{5103B586-B03D-4545-B325-63DA908C4C07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5103B586-B03D-4545-B325-63DA908C4C07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5103B586-B03D-4545-B325-63DA908C4C07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B240F2F8-6B29-42F6-B88E-D24C9156C7ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B240F2F8-6B29-42F6-B88E-D24C9156C7ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B240F2F8-6B29-42F6-B88E-D24C9156C7ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B240F2F8-6B29-42F6-B88E-D24C9156C7ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1810499-48A9-4728-88B6-E9F236C72941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1810499-48A9-4728-88B6-E9F236C72941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1810499-48A9-4728-88B6-E9F236C72941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1810499-48A9-4728-88B6-E9F236C72941}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

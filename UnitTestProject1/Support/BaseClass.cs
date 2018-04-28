@@ -24,6 +24,7 @@ namespace FunctionalTests.Support
         public void UserLogin()
         {
         }
+
         [AfterScenario]
         public void AfterScenario()
         {
